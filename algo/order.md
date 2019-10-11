@@ -80,8 +80,8 @@ Big-Theta記法は上の記法のどちらもが当てはまるときです
 
 $$
 \begin{aligned}
-\exists{c_0, c_1, n_0} > 0 \text{ s.t. } \forall{n} \leq n_0 \\
-0 \leq c_0 \cdot g(n) \leq f(n) \leq c_1\cdot g(n)
+\exists{c_0, c_1, n_0} &> 0 \text{ s.t. } \forall{n} \leq n_0 \\
+0 &\leq c_0 \cdot g(n) \leq f(n) \leq c_1\cdot g(n)
 \end{aligned}
 $$
 
@@ -224,7 +224,7 @@ $$
 
 ### 結論
 
-$n \geq 1$で$T(n) = n(\log(n) + 1)$とわかります
+$n \geq 1$ で $T(n) = n(\log(n) + 1)$とわかります
 
 このように事前の推論を数学的帰納法で証明することを**Substituion Method**と言います
 
