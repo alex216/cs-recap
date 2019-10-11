@@ -1,0 +1,13 @@
+digraph{
+    S1;
+    S2;
+    S3;
+
+    S1 -> S1[label="A1\n0.4"]
+    S1 -> S2[label="A2\n0.3"]
+    S1 -> S3[label="A1\n0.3"]
+    S2 -> S1[label="A1\n0.5"]
+    S2 -> S3[label="A2\n0.5"]
+    S3 -> S3[label="A2\n0.2"]
+    S3 -> S1[label="A1\n0.8"]
+}
