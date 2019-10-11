@@ -1,0 +1,19 @@
+{
+  "title": "CS-Recap",
+  "plugins": [
+    "katex@git+https://github.com/gaoxiaosong/plugin-katex.git",
+    "copy-code-button",
+    "search-pro-kui",
+    "custom-favicon",
+    "image-captions",
+    "japanese-support",
+    "advanced-emoji",
+    "hide-published-with",
+    "-lunr",
+    "-search",
+    "-sharing"
+  ],
+  "pluginsConfig": {
+    "favicon": "img/favicon.ico"
+  }
+}

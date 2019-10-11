@@ -1,0 +1,4 @@
+node_modules
+etc
+build.sh
+package-lock.json
