@@ -1,6 +1,0 @@
-digraph G {
-    A -> {B, C};
-    B -> {A, C};
-    C -> {A, B};
-    {rank=same; B, C}
-}
