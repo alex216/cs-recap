@@ -22,7 +22,6 @@
 ## Selective
 * [Information theory](info-theo/info-theo.md)
 * [Operating system](os/os.md)
-* [Bioinformatics](bioinfo/bioinfo.md)
 
 ## Other topics
 * [Editor](other/editor.md)
