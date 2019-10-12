@@ -1,2 +1,2 @@
-# 00 C Language
+# C Language
 

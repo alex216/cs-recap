@@ -1,2 +1,2 @@
-# 00 Statistics
+# Statistics
 

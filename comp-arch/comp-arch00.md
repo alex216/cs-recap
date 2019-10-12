@@ -1,2 +1,2 @@
-# 00 Computer Architecture
+# Computer Architecture
 

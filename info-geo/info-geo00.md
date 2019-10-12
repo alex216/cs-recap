@@ -1,2 +1,2 @@
-# 00 Information geometry
+# Information geometry
 

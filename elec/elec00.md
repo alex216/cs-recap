@@ -1,4 +1,4 @@
-# 00 Electromagnetics
+# Electromagnetics
 
 多くのコンピュータの動力源である電気と磁気についての理論
 
