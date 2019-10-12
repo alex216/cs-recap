@@ -25,7 +25,7 @@
 * [Computer Architecture](comp-arch/comp-arch00.md)
 * [Signal Processing](signal/signal00.md)
     * [Sine wave & Linear system](singal/signal01.md)
-    * [Complex plane](signal/complex.md)
+    * [Complex plane](signal/signal02.md)
 * [C Language](clang/clang00.md)
     * [01 Introduction to C](clang/clang01.md)
 
