@@ -165,8 +165,10 @@ $$
 この$\boldsymbol{u}$は
 
 $$
+\begin{aligned}
 P\boldsymbol{u} = \boldsymbol{u}\\
 \sum u_i = 1, u_i \geq 0
+\end{aligned}
 $$
 
 を満たすベクトルで,これより一意に定まります
@@ -234,8 +236,10 @@ $$
 であり,$I_i$の期待値を$\bar{I_i}(\ldots x_{i-2}x_{i-1})$として
 
 $$
-\bar{I_i}(\ldots x_{i-2}x_{i-1}) = \sum_{x_i}p(x_i \mid \ldots x_{i-2}x_{i-1})I_i \\
-= -  \sum_{x_i}p(x_i \mid \ldots x_{i-2}x_{i-1})\log p(x_i \mid \ldots x_{i-2}x_{i-1})
+\begin{aligned}
+\bar{I_i}(\ldots x_{i-2}x_{i-1}) &= \sum_{x_i}p(x_i \mid \ldots x_{i-2}x_{i-1})I_i \\
+&= -  \sum_{x_i}p(x_i \mid \ldots x_{i-2}x_{i-1})\log p(x_i \mid \ldots x_{i-2}x_{i-1})
+\end{aligned}
 $$
 
 これを更に文字系列$\ldots x_{i-2}x_{i-1}$について平均したものが情報源の1文字当たりのエントロピー
@@ -357,8 +361,11 @@ $$
 アルファベットの文字数を$k$として,$L$に属する文字列の総数は
 
 $$
-k^N = 2^{H_0 N},\\
-H_0 = \log k
+\begin{aligned}
+k^N &= 2^{H_0 N}\\
+H_0 N \log_2 2 &= N \log_2 K\\
+H_0 &= \log k
+\end{aligned}
 $$
 
 であり,$H<H_0$とすると$N$が大きければ
