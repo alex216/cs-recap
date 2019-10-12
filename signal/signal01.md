@@ -35,8 +35,10 @@
 時間信号は
 
 $$
-x(t) = A\sin \omega t\\
-x(t) = A\cos \omega t
+\begin{aligned}
+x(t) &= A\sin \omega t\\
+x(t) &= A\cos \omega t
+\end{aligned}
 $$
 
 という式で表されます.前者が**正弦波**,後者が**余弦波**です.位相をずらせば同じ信号なので,一般化した$\cos$で表現しても**正弦波信号**と呼びます
@@ -105,8 +107,10 @@ $$
 また次のように数式で表現することもできます
 
 $$
-x(t) = \sum_k a_k x_k (t)\\
-y(t) = \phi [x(t)] = \sum_k a_k \phi [x_k(t)]
+\begin{aligned}
+x(t) &= \sum_k a_k x_k (t)\\
+y(t) &= \phi [x(t)] = \sum_k a_k \phi [x_k(t)]
+\end{aligned}
 $$
 
 線形システムに制限は信号を入力すると,出力も同じ周波数の正弦波信号となります(これは線形システムの定義から明らかです)
@@ -114,8 +118,10 @@ $$
 そして,入出力をそれぞれ
 
 $$
-x(t)=A_1 \cos(\omega t + \theta_1) = A_1 \cos (2\pi f t + \theta_1)\\
-y(t)=A_2 \cos(\omega t + \theta_2) = A_2 \cos (2\pi f t + \theta_2)\\
+\begin{aligned}
+x(t)&=A_1 \cos(\omega t + \theta_1) = A_1 \cos (2\pi f t + \theta_1)\\
+y(t)&=A_2 \cos(\omega t + \theta_2) = A_2 \cos (2\pi f t + \theta_2)\\
+\end{aligned}
 $$
 
 とおくと,変化量は
@@ -199,8 +205,10 @@ $$
 このとき,係数は次のようになります
 
 $$
-a_n = \frac{2}{T}\int^{T/2}_{T/2}x(t)\cos n \omega_0 t dt\\
-b_n = \frac{2}{T}\int^{T/2}_{T/2}x(t)\sin n \omega_0 t dt
+\begin{aligned}
+a_n &= \frac{2}{T}\int^{T/2}_{T/2}x(t)\cos n \omega_0 t dt\\
+b_n &= \frac{2}{T}\int^{T/2}_{T/2}x(t)\sin n \omega_0 t dt
+\end{aligned}
 $$
 
 信号$x(t)$は偶関数のとき式は定数項とcosの項だけとなり,奇関数のとき式は定数項とsinの項だけとなります.それぞれフーリエ余弦級数,フーリエ正弦級数と呼ばれています

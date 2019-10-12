@@ -15,8 +15,10 @@ $$
 とおいたものを**複素数**(complex number)といい,$x$を**実部**(real part),$y$を**虚部**(imaginary part)と言います.それぞれ
 
 $$
-x = Re z\\
-y = Im z
+\begin{aligned}
+x &= Re z\\
+y &= Im z
+\end{aligned}
 $$
 
 と記します.実部がなく虚部だけの複素数を**純虚数**と言います
@@ -42,15 +44,19 @@ $$
 となります.これを複素数$z$の**絶対値**と呼び,$|z|$と記します.また,$z$と原点を結ぶ直線が横軸の間となす角$\phi$は$z$の**偏角**と呼び$arg(z)$と書きます.$r$と$\phi$を用いると$z$の実部と虚部はそれぞれ
 
 $$
-x = r \cos \phi\\
-y = r \sin \phi
+\begin{aligned}
+x &= r \cos \phi\\
+y &= r \sin \phi
+\end{aligned}
 $$
 
 と表せます.これと$z$の定義から
 
 $$
-z = r\cos \phi + jr \sin \phi\\
-= r(\cos \phi + j \sin \phi)
+\begin{aligned}
+z &= r\cos \phi + jr \sin \phi\\
+&= r(\cos \phi + j \sin \phi)
+\end{aligned}
 $$
 
 を得ます.このような表現を**極形式**(polar form)と言います
@@ -76,8 +82,10 @@ $$
 円上にある絶対値$A$の点Pを考えます.その偏角$\phi$を時間に比例して$\phi = \omega t$で変化させます.このとき,点Pの実部と虚部の時間変化は
 
 $$
-x(t) = A \cos \omega t\\
-y(t) = A \sin \omega t
+\begin{aligned}
+x(t) &= A \cos \omega t\\
+y(t) &= A \sin \omega t
+\end{aligned}
 $$
 
 となります.これはそれぞれ正弦波信号となっています
@@ -89,8 +97,10 @@ $$
 これを$z(t)$とすれば
 
 $$
-z(t) = x(t) + y(t)\\
-= A(\cos \omega t + j \sin \omega t)
+\begin{aligned}
+z(t) &= x(t) + y(t)\\
+&= A(\cos \omega t + j \sin \omega t)
+\end{aligned}
 $$
 
 この右辺にオイラーの公式に$\phi = \omega t$を代入した$e^{j \omega t} = \cos \omega t + j \sin \omega t$を適用し,次のように複素正弦波信号が定義されます
@@ -124,15 +134,19 @@ $$
 ### 実数の正弦波信号の複素正弦波信号による合成
 
 $$
-e^{j\omega t} = \cos \omega t + j \sin \omega t
-e^{-j\omega t} = \cos \omega t - j \sin \omega t
+\begin{aligned}
+e^{j\omega t} &= \cos \omega t + j \sin \omega t
+e^{-j\omega t} &= \cos \omega t - j \sin \omega t
+\end{aligned}
 $$
 
 であるから,和と差を取って$2$で割ると
 
 $$
-\cos \omega t = \frac{1}{2}(e^{j \omega t} + e^{-j \omega t})\\
-\sin \omega t = \frac{1}{2j}(e^{j \omega t} - e^{-j \omega t})
+\begin{aligned}
+\cos \omega t &= \frac{1}{2}(e^{j \omega t} + e^{-j \omega t})\\
+\sin \omega t &= \frac{1}{2j}(e^{j \omega t} - e^{-j \omega t})
+\end{aligned}
 $$
 
 となります.正弦波信号は2つの複素正弦波信号の合成で表すことができます.より一般的に次式が成り立ちます
@@ -146,8 +160,10 @@ $$
 線形システムで複素正弦波信号を入力した場合,出力も同じ形の信号と成ります.このようにシステムに対して入出力の形が同じ信号をシステムの**固有信号**と言い,複素正弦波信号は線形システムの固有信号です.よって入力,出力をそれぞれ$x(t)$, $y(t)$とおいて
 
 $$
-x(t) = A_1 e^{j \theta_1}e^{j \omega t}\\
-y(t) = A_2 e^{j \theta_2}e^{j \omega t}
+\begin{aligned}
+x(t) &= A_1 e^{j \theta_1}e^{j \omega t}\\
+y(t) &= A_2 e^{j \theta_2}e^{j \omega t}
+\end{aligned}
 $$
 
 とおいて,両者の比を取ると
