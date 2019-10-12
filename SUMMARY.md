@@ -1,6 +1,7 @@
 # Summary
 
 * [Computer Science Recapitulaion](README.md)
+* [About editing this site](EDIT.md)
 
 ## Core
 
