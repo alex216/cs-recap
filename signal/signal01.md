@@ -136,11 +136,13 @@ $$
 インパルス信号とは$t=0$のときのみ値が$\infty$で,それ以外では$0$となり,波形の面積が$1$であるような信号です.記号では$\delta(t)$として,**δ信号**と呼ぶことも有ります
 
 $$
-\delta(t) = \begin{cases}
-\infty \\
-0
-\end{cases}\\
-\int^{\epsilon}_{\epsilon}\delta(t)dt=1
+\begin{aligned}
+&\delta(t)= \begin{cases}
+            \infty \\
+            0
+            \end{cases}\\
+&\int^{\epsilon}_{\epsilon}\delta(t)dt=1
+\end{aligned}
 $$
 
 インパルス信号には次のような性質が有ります
