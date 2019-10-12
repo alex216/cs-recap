@@ -27,11 +27,11 @@ CSの基礎となるような内容です
 
 ## CS
 
-* [Discrete Math](dis-math/dis-math00.md)
+* [Discrete math](dis-math/dis-math00.md)
 * [Algorithm](algo/algo00.md)
-* [Computer Architecture](comp-arch/comp-arch00.md)
-* [Signal Processing](signal/signal00.md)
-* [C Language](clang/clang00.md)
+* [Computer architecture](comp-arch/comp-arch00.md)
+* [Signal processing](signal/signal00.md)
+* [C language](clang/clang00.md)
 
 ## Selective
 
@@ -47,3 +47,7 @@ Coreの内容を土台とする発展的な内容です
 * [Editor](other/editor.md)
 * [Latex](other/latex.md)
 * [Git](othergit.md)
+
+## 編集について
+
+* [About editing this site](EDIT.md)
