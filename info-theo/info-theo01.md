@@ -228,7 +228,7 @@ p_{B_j}(A_i)&=\frac{p(A_i)p_{A_i}(B_j)}{p(B_j)}=\frac{p(A_i,B_j)}{p(B_j)}
 \end{aligned}
 $$
 
-   これは条件付き確率の定義です.3から容易に求めることができます 
+   これは条件付き確率の定義です.3から容易に求めることができます
    
    Bayesの公式とも言われています
 
@@ -282,17 +282,21 @@ $$
 
 4. 
 $$
-H(A) \geq H_B(A)\\
-H(B) \geq H_A(B)
+\begin{aligned}
+H(A) &\geq H_B(A)\\
+H(B) &\geq H_A(B)
+\end{aligned}
 $$
 
    これは情報の不確かさが何か情報が与えられて増える
 
 5. 
 $$
-H(A,B)=H(A)+H_A(B)\\
-=H(B)+H_B(A)\\
-H_A(B)=H(A,B)-H(A)
+\begin{aligned}
+H(A,B)&=H(A)+H_A(B)\\
+&=H(B)+H_B(A)\\
+H_A(B)&=H(A,B)-H(A)
+\end{aligned}
 $$
 
    $A$と$B$についての情報を知っている方が片方だけを知っているよりも大きいということです
