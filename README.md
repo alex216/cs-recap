@@ -16,33 +16,33 @@ CSの基礎となるような内容です
 
 ## Math
 
-* [Calculus](cal00.md)
-* [Linear algebra](linear-alge00.md)
-* [Statistics](stat00.md)
-* [Set & Phase](set-phase00.md)
+* [Calculus](cal/cal00.md)
+* [Linear algebra](linear-alge/linear-alge00.md)
+* [Statistics](stat/stat00.md)
+* [Set & Topology](set-topo00/set-topo00.md)
 
 ## Physics
 
-* [Electromagnetics](elec00.md)
+* [Electromagnetics](elec/elec00.md)
 
 ## CS
 
-* [Discrete Math](dis-math00.md)
-* [Algorithm](algo00.md)
-* [Computer Architecture](comp-arch00.md)
-* [C Language](clang00.md)
+* [Discrete Math](dis-math/dis-math00.md)
+* [Algorithm](algo/algo00.md)
+* [Computer Architecture](comp-arch/comp-arch00.md)
+* [C Language](clang/clang00.md)
 
 ## Selective
 
 Coreの内容を土台とする発展的な内容です
 
-* [Information theory](info-theo00.md)
-* [Operating system](os00.md)
+* [Information theory](info-theo/info-theo00.md)
+* [Operating system](os/os00.md)
 
 ## Other topics
 
 関連した内容です
 
-* [Editor](editor.md)
-* [Latex](latex.md)
-* [Git](git.md)
+* [Editor](other/editor.md)
+* [Latex](other/latex.md)
+* [Git](othergit.md)
