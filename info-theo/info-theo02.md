@@ -141,8 +141,8 @@ $$
 
 $$
 \begin{aligned}
-X^n = X_1 X_2\ldots X_n\\
-x^n = x_1 x_2\ldots x_n
+X^n &= X_1 X_2\ldots X_n\\
+x^n &= x_1 x_2\ldots x_n
 \end{aligned}
 $$
 
@@ -151,7 +151,7 @@ $$
 ここでは$n$個で$H(X^n)$のエントロピーを1文字ずつに割り振ったとき
 
 $$
-H_n　= \frac{H(x^n)}{n}
+H_{n}=\frac{H(x^{n})}{n}
 $$
 
 が1つ当たりのエントロピーとなります
