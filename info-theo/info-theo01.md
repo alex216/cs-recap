@@ -42,7 +42,7 @@ $$
 よって
 
 $$
-\tag{1} \frac{f(x+\varepsilon x) - f(x)}{\varepsilon x} = \frac{f(1+\varepsilon)}{\varepsilon x}
+\tag*{1} \frac{f(x+\varepsilon x) - f(x)}{\varepsilon x} = \frac{f(1+\varepsilon)}{\varepsilon x}
 $$
 
 $\varepsilon \to 0$とすると左辺は明らかに$f(x)$の導関数$f'(x)$であり,
