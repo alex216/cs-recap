@@ -137,8 +137,8 @@ $$
 
 $$
 \delta(t)= \begin{cases}
-            \infty \\
-            0
+            \infty & \\
+            0 &
             \end{cases}
 $$
 
