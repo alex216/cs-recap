@@ -42,8 +42,10 @@ $$
 よって
 
 $$
-\tag*{1} \frac{f(x+\varepsilon x) - f(x)}{\varepsilon x} = \frac{f(1+\varepsilon)}{\varepsilon x}
+\frac{f(x+\varepsilon x) - f(x)}{\varepsilon x} = \frac{f(1+\varepsilon)}{\varepsilon x}
 $$
+
+この式を(1)とします
 
 $\varepsilon \to 0$とすると左辺は明らかに$f(x)$の導関数$f'(x)$であり,
 
@@ -265,7 +267,7 @@ H_A(B)&=H(A,B)-H(A)
 $$
    最終的に同じことが分かっていれば同じ情報量になるということです
 
-2. 
+1. 
 $$
 H_A(B) \leq 0
 $$
