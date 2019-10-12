@@ -2,7 +2,7 @@
 
 [ここ](https://diohabara.github.io/cs-recap)ではComputer Scienceに関連する分野で自分が勉強した内容を書いていきます
 
-間違った内容などがあったら是非[青い鳥](twitter.com/legarconaujapon)にDM or リプライをするかプルリクエストをして下さい
+間違った内容などがあったら是非[青い鳥](https://twitter.com/legarconaujapon)にDM or リプライをするかプルリクエストをして下さい
 
 文中ではOSをUbuntu(18.04以降)かMac OSを(Mojave以降)を想定しています
 
