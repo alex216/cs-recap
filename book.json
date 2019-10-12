@@ -1,7 +1,7 @@
 {
   "title": "CS-Recap",
   "plugins": [
-    "katex@git+https://github.com/gaoxiaosong/plugin-katex.git",
+    "katex-plus",
     "copy-code-button",
     "search-pro-kui",
     "custom-favicon",
