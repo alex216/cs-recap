@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo gitbook update
+echo "di0habara!" | sudo -S gitbook update
 gitbook init
 sudo gitbook install
 gitbook build . docs
