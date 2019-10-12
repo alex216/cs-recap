@@ -23,6 +23,7 @@
 * [Algorithm](algo/algo00.md)
     * [Order](algo/algo01.md)
 * [Computer Architecture](comp-arch/comp-arch00.md)
+* [Signal Processing](signal/signal00.md)
 * [C Language](clang/clang00.md)
     * [01 Introduction to C](clang/clang01.md)
 

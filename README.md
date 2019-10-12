@@ -30,6 +30,7 @@ CSの基礎となるような内容です
 * [Discrete Math](dis-math/dis-math00.md)
 * [Algorithm](algo/algo00.md)
 * [Computer Architecture](comp-arch/comp-arch00.md)
+* [Signal Processing](signal/signal00.md)
 * [C Language](clang/clang00.md)
 
 ## Selective
