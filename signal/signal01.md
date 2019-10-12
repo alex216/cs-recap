@@ -136,10 +136,12 @@ $$
 インパルス信号とは$t=0$のときのみ値が$\infty$で,それ以外では$0$となり,波形の面積が$1$であるような信号です.記号では$\delta(t)$として,**δ信号**と呼ぶことも有ります
 
 $$
+\begin{aligned}
 \delta(t)= \begin{cases}
-            \infty & t = 0\\
-            0 &t \ne 0&
+            \infty & (t = 0)\\
+            0 &(t \ne 0)&
             \end{cases}
+\end{aligned}
 $$
 
 $$
