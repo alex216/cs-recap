@@ -33,8 +33,10 @@ $$
 ここで$f(xy)=f(x)+f(y)$とすると
 
 $$
-f(x + \varepsilon x) = f\{(1 + \varepsilon)x\}\\
-= f(1 + \varepsilon) + f(x)
+\begin{aligned}
+f(x + \varepsilon x) &= f\{(1 + \varepsilon)x\}\\
+& = f(1 + \varepsilon) + f(x)
+\end{aligned}
 $$
 
 よって
@@ -113,12 +115,14 @@ $A$が起こったことを教える情報量を$I$とすると,$I$だけでは$
 
 つまり情報量$I$は
 
-\begin{eqnarray}
-\log n &=& I + \log k\\
-I &=& \log n - \log k\\
-&=& -(\log k - \log n)\\
-&=& - \log \frac{k}{n}
-\end{eqnarray}
+$$
+\begin{aligned}
+\log n &= I + \log k\\
+I &= \log n - \log k\\
+&= -(\log k - \log n)\\
+&= - \log \frac{k}{n}
+\end{aligned}
+$$
 
 となります
 
@@ -189,18 +193,20 @@ $$
 これらの確率分布は以下のような特徴を持ちます
 
 1. 
-\begin{eqnarray}
+\begin{aligned}
 \sum_{i,j}p(A_i,B_j)&=&1\\
 \sum_{i}p(A_i)&=&\sum_{j}p(B_j)=1\\
 \sum_{j}p_{A_i}(B_j)&=&\sum_{i}p_{B_j}(A_i)=1
-\end{eqnarray}
+\end{aligned}
 
    すべての確率を足したら$1$になるということです
 
-2. 
-$$
-p(A_i)=\sum_{j}p(A_i,B_j)\\
-p(B_j)=\sum_{i}p(A_i,B_j)\\
+2.
+
+$$\begin{aligned}
+p(A_i)&=\sum_{j}p(A_i,B_j)\\
+p(B_j)&=\sum_{i}p(A_i,B_j)\\
+\end{aligned}
 $$
 
    同時確率分布で片方を固定した場合の和は固定された方の周辺確率分布になるということです
@@ -212,10 +218,12 @@ $$
 
    $A_i, B_j$の同時確率分布は$A_i$の確率と$A_i$が起きたときの$B_j$の確率を書けたものです
 
-4. 
+4.
 $$
-p_{A_i}(B_j)=\frac{p(B_j)p_{B_j}(A_i)}{p(A_i)}=\frac{p(A_i,B_j)}{p(A_i)}\\
-p_{B_j}(A_i)=\frac{p(A_i)p_{A_i}(B_j)}{p(B_j)}=\frac{p(A_i,B_j)}{p(B_j)}
+\begin{aligned}
+p_{A_i}(B_j)&=\frac{p(B_j)p_{B_j}(A_i)}{p(A_i)}=\frac{p(A_i,B_j)}{p(A_i)}\\
+p_{B_j}(A_i)&=\frac{p(A_i)p_{A_i}(B_j)}{p(B_j)}=\frac{p(A_i,B_j)}{p(B_j)}
+\end{aligned}
 $$
 
    これは条件付き確率の定義です.3から容易に求めることができます 
@@ -234,22 +242,25 @@ $$
 
 求めるのは$A$が何であるかは不確定であり,求めるエントロピーは全ての$A_i$について平均したものであるから
 
-\begin{eqnarray}
-H_A(B)&=&\sum_{i=1}^{n}p(A_i)H_{A_i}(B)\\
-&=&-\sum_{i,j}p(A_i)p_{A_i}(B_j)\log p_{A_i}(B_j)
-\end{eqnarray}
+$$
+\begin{aligned}
+H_A(B)&=\sum_{i=1}^{n}p(A_i)H_{A_i}(B)\\
+&=-\sum_{i,j}p(A_i)p_{A_i}(B_j)\log p_{A_i}(B_j)
+\end{aligned}
+$$
 
 このエントロピーの平均値$H_A(B)$を**条件付きエントロピー**と言う
 
 条件付きエントロピーもいくつかの性質を持つ
 
-1. 
-\begin{eqnarray}
-H(A,B)&=&H(A)+H_A(B)\\
-&=&H(B)+H_B(A)\\
-H_A(B)&=&H(A,B)-H(A)
-\end{eqnarray}
-
+1.
+$$
+\begin{aligned}
+H(A,B)&=H(A)+H_A(B)\\
+&=H(B)+H_B(A)\\
+H_A(B)&=H(A,B)-H(A)
+\end{aligned}
+$$
    最終的に同じことが分かっていれば同じ情報量になるということです
 
 2. 
