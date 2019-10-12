@@ -192,12 +192,14 @@ $$
 
 これらの確率分布は以下のような特徴を持ちます
 
-1. 
+1.
+$$
 \begin{aligned}
-\sum_{i,j}p(A_i,B_j)&=&1\\
-\sum_{i}p(A_i)&=&\sum_{j}p(B_j)=1\\
-\sum_{j}p_{A_i}(B_j)&=&\sum_{i}p_{B_j}(A_i)=1
+&\sum_{i,j}p(A_i,B_j=1\\
+&\sum_{i}p(A_i)=\sum_{j}p(B_j)=1\\
+&\sum_{j}p_{A_i}(B_j)=\sum_{i}p_{B_j}(A_i)=1
 \end{aligned}
+$$
 
    すべての確率を足したら$1$になるということです
 
