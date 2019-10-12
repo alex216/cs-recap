@@ -140,8 +140,10 @@ $$
 です.ただし,ここでは
 
 $$
+\begin{aligned}
 X^n = X_1 X_2\ldots X_n\\
 x^n = x_1 x_2\ldots x_n
+\end{aligned}
 $$
 
 です
