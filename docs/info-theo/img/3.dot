@@ -1,15 +1,14 @@
-digraph{
+digraph {
+    label="図3"
+    layout=circo
     S1;
     S2;
     S3;
     S4;
 
-    S1 -> S2
-    S2 -> S4
-    S2 -> S3
-    S2 -> S1
-    S3 -> S4
-    S3 -> S2
-    S4 -> S1
-    S4 -> S3
+    S1 -> {S2,S4}
+    S2 -> {S1, S3}
+    S3 -> {S2, S4}
+    S4 -> {S3, S1}
+    {rank=same; S3, S2}
 }

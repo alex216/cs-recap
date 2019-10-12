@@ -1,33 +1,21 @@
 digraph{
-    S1;
-    S2;
-    S3;
-    S4;
-    S5;
-    S6;
-    S7;
-
     S2 -> S3
     S2 -> S6
 
     subgraph cluster1 {
         label="A"
-        S1 -> S1
-        S1 -> S2
+        S1 -> {S1,S2}
         S2 -> S1
     }
     subgraph cluster2 {
         label="B"
-        S3 -> S4
-        S3 -> S5
-        S4 -> S4
-        S4 -> S5
+        S3 -> {S4, S5}
+        S4 -> {S4, S5}
         S5 -> S3
     }
     subgraph cluster3 {
         label="C"
         S6 -> S7
-        S7 -> S7
-        S7 -> S6
+        S7 -> {S6, S7}
     }
 }
