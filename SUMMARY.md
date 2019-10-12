@@ -13,7 +13,7 @@
 ## Physics
 * [00 Electromagnetics](elec/elec00.md)
     * [01 Basic Math](elec/elec01.md)
-    * [02 Coulomb & Gaussian](elec/elc02.md)
+    * [02 Coulomb & Gaussian](elec/elec02.md)
     * [03 Potential](elec/elec03.md)
 
 ## CS
