@@ -12,9 +12,14 @@
     "custom-favicon",
     "-lunr",
     "-search",
-    "-sharing"
+    "-sharing",
+    "uml"
   ],
   "pluginsConfig": {
-    "favicon": "img/favicon.ico"
+    "favicon": "img/favicon.ico",
+    "uml" : {
+      "charset": "utf-8",
+      "format":"svg"
+    }
   }
 }

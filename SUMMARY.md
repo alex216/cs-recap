@@ -24,6 +24,7 @@
 * [Algorithm](algo/algo00.md)
     * [01 Order](algo/algo01.md)
 * [Computer architecture](comp-arch/comp-arch00.md)
+    * [01 Digital circuit](comp-arch/comp-arch01.md)
 * [Signal processing](signal/signal00.md)
     * [01 Sine wave & Linear system](signal/signal01.md)
     * [02 Complex plane](signal/signal02.md)
