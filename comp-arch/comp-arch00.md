@@ -2,11 +2,4 @@
 
 コンピュータアーキテクチャとはハードウェアに関する
 
-```sh
-$ ls
-hoge
-```
-
-$$
-1+2=3
-$$
+* [Digital circuit](comp-arch01.md)
