@@ -1,0 +1,875 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>01 Introduction to OS · CS-Recap</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex-plus/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro-kui/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="os02.html" />
+    
+    
+    <link rel="prev" href="os00.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Computer Science Recapitulaion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../EDIT.html">
+            
+                <a href="../EDIT.html">
+            
+                    
+                    About editing this site
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Core</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Math</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../cal/cal00.html">
+            
+                <a href="../cal/cal00.html">
+            
+                    
+                    Calculus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../linear-alge/linear-alge00.html">
+            
+                <a href="../linear-alge/linear-alge00.html">
+            
+                    
+                    Linear algebra
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../stat/stat00.html">
+            
+                <a href="../stat/stat00.html">
+            
+                    
+                    Statistics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../set-topology/set-phase00.html">
+            
+                <a href="../set-topology/set-phase00.html">
+            
+                    
+                    Set & Topology
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Physics</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../elec/elec00.html">
+            
+                <a href="../elec/elec00.html">
+            
+                    
+                    Electromagnetics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../elec/elec01.html">
+            
+                <a href="../elec/elec01.html">
+            
+                    
+                    01 Basic Math
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../elec/elec02.html">
+            
+                <a href="../elec/elec02.html">
+            
+                    
+                    02 Coulomb & Gaussian
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../elec/elec03.html">
+            
+                <a href="../elec/elec03.html">
+            
+                    
+                    03 Potential
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">CS</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../dis-math/dis-math00.html">
+            
+                <a href="../dis-math/dis-math00.html">
+            
+                    
+                    Discrete math
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../dis-math/dis-math01.html">
+            
+                <a href="../dis-math/dis-math01.html">
+            
+                    
+                    01 Set
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../dis-math/dis-math02.html">
+            
+                <a href="../dis-math/dis-math02.html">
+            
+                    
+                    02 Proof
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../algo/algo00.html">
+            
+                <a href="../algo/algo00.html">
+            
+                    
+                    Algorithm
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="../algo/algo01.html">
+            
+                <a href="../algo/algo01.html">
+            
+                    
+                    01 Order
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../comp-arch/comp-arch00.html">
+            
+                <a href="../comp-arch/comp-arch00.html">
+            
+                    
+                    Computer architecture
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.3.1" data-path="../comp-arch/comp-arch01.html">
+            
+                <a href="../comp-arch/comp-arch01.html">
+            
+                    
+                    01 Digital circuit
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../signal/signal00.html">
+            
+                <a href="../signal/signal00.html">
+            
+                    
+                    Signal processing
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.4.1" data-path="../signal/signal01.html">
+            
+                <a href="../signal/signal01.html">
+            
+                    
+                    01 Sine wave & Linear system
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4.2" data-path="../signal/signal02.html">
+            
+                <a href="../signal/signal02.html">
+            
+                    
+                    02 Complex plane
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../clang/clang00.html">
+            
+                <a href="../clang/clang00.html">
+            
+                    
+                    C language
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.5.1" data-path="../clang/clang01.html">
+            
+                <a href="../clang/clang01.html">
+            
+                    
+                    01 Introduction to C
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Selective</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../info-theo/info-theo00.html">
+            
+                <a href="../info-theo/info-theo00.html">
+            
+                    
+                    Information theory
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../info-theo/info-theo01.html">
+            
+                <a href="../info-theo/info-theo01.html">
+            
+                    
+                    01 Entropy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="../info-theo/info-theo02.html">
+            
+                <a href="../info-theo/info-theo02.html">
+            
+                    
+                    02 Information Resource
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="../info-theo/info-theo03.html">
+            
+                <a href="../info-theo/info-theo03.html">
+            
+                    
+                    03 Marcov chain
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../info-geo/info-geo00.html">
+            
+                <a href="../info-geo/info-geo00.html">
+            
+                    
+                    Information geometry
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.2.1" data-path="../info-geo/info-geo01.html">
+            
+                <a href="../info-geo/info-geo01.html">
+            
+                    
+                    01 Basic math
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="os00.html">
+            
+                <a href="os00.html">
+            
+                    
+                    Operating system
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="6.3.1" data-path="os01.html">
+            
+                <a href="os01.html">
+            
+                    
+                    01 Introduction to OS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3.2" data-path="os02.html">
+            
+                <a href="os02.html">
+            
+                    
+                    02 Thread & Process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3.3" data-path="os03.html">
+            
+                <a href="os03.html">
+            
+                    
+                    03 C & Assembly
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Other topics</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../other/editor.html">
+            
+                <a href="../other/editor.html">
+            
+                    
+                    Editor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../other/latex.html">
+            
+                <a href="../other/latex.html">
+            
+                    
+                    Latex
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../other/git.html">
+            
+                <a href="../other/git.html">
+            
+                    
+                    Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >01 Introduction to OS</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="01-introduction-to-operating-system">01 Introduction to Operating System</h1>
+<p>&#x4EE5;&#x4E0B;&#x306B;&#x306F;&#x30B3;&#x30FC;&#x30C9;&#x304C;&#x767B;&#x5834;&#x3057;&#x307E;&#x3059;</p>
+<p>C&#x3092;&#x30B3;&#x30F3;&#x30D1;&#x30A4;&#x30EB;&#x3057;&#x305F;&#x7D50;&#x679C;&#x306E;&#x30A2;&#x30BB;&#x30F3;&#x30D6;&#x30EA;&#x304C;&#x898B;&#x305F;&#x3044;&#x3068;&#x304D;&#x306F;<a href="https://gcc.godbolt.org/" target="_blank">https://gcc.godbolt.org/</a>&#x3092;&#x4F7F;&#x3063;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;</p>
+<h2 id="os&#x3068;&#x306F;">OS&#x3068;&#x306F;</h2>
+<p>OS&#x306F;&#x30B3;&#x30F3;&#x30D4;&#x30E5;&#x30FC;&#x30BF;&#x3092;&#x52D5;&#x304B;&#x3059;&#x969B;&#x306B;<strong>&#x6700;&#x3082;&#x57FA;&#x672C;&#x7684;&#x306A;&#x30BD;&#x30D5;&#x30C8;&#x30A6;&#x30A7;&#x30A2;</strong>&#x3067;&#x3059;</p>
+<ul>
+<li>&#x60C5;&#x5831;&#x304C;&#x3069;&#x306E;&#x8A18;&#x61B6;&#x88C5;&#x7F6E;&#x306B;&#x3042;&#x308B;&#x306E;&#x304B;&#x3068;&#x3044;&#x3046;&#x9055;&#x3044;&#x3092;&#x8003;&#x616E;&#x305B;&#x305A;&#x306B;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x3092;&#x66F8;&#x304F;&#x3053;&#x3068;&#x3092;&#x53EF;&#x80FD;&#x306B;&#x3057;&#x307E;&#x3059;</li>
+<li>&#x540C;&#x6642;&#x306B;&#x8907;&#x6570;&#x306E;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x304C;,&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DE;&#x30FC;&#x304C;&#x3044;&#x3061;&#x3044;&#x3061;&#x66F8;&#x304B;&#x305A;&#x306B;&#x52D5;&#x304B;&#x305B;&#x308B;&#x3088;&#x3046;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;<ul>
+<li>&#x30D6;&#x30E9;&#x30A6;&#x30B6;,&#x30E1;&#x30FC;&#x30EB;&#x30AF;&#x30E9;&#x30A4;&#x30A2;&#x30F3;&#x30C8;,&#x30B2;&#x30FC;&#x30E0;&#x306A;&#x3069;&#x3092;&#x4E26;&#x884C;&#x3057;&#x3066;&#x52D5;&#x304B;&#x305B;&#x307E;&#x3059;</li>
+</ul>
+</li>
+<li>&#x30D0;&#x30B0;&#x306B;&#x3088;&#x3063;&#x3066;&#x30E1;&#x30E2;&#x30EA;&#x304C;&#x7834;&#x58CA;&#x3055;&#x308C;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;</li>
+</ul>
+<h3 id="&#x5B9F;&#x4F8B;">&#x5B9F;&#x4F8B;</h3>
+<ul>
+<li>Windows, Linux, Solaris, BSD, Mach,...<ul>
+<li>Mac OS&#x306F;BSD&#x304C;&#x30D9;&#x30FC;&#x30B9;</li>
+<li>Android&#x306F;Linux&#x304C;&#x30D9;&#x30FC;&#x30B9;</li>
+<li>Windows&#x4EE5;&#x5916;&#x306E;OS&#x306F;Unix&#x3068;&#x3044;&#x3046;OS&#x304B;&#x3089;&#x6D3E;&#x751F;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x306A;&#x305C;&#x5B66;&#x3076;&#x306E;&#x304B;">&#x306A;&#x305C;&#x5B66;&#x3076;&#x306E;&#x304B;</h2>
+<p>OS&#x306F;&#x6839;&#x5E79;&#x7684;&#x306A;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x306A;&#x306E;&#x3067;&#x3053;&#x308C;&#x3092;&#x5B66;&#x3076;&#x3053;&#x3068;&#x3067;&#x591A;&#x304F;&#x306E;&#x5FDC;&#x7528;&#x3078;&#x3068;&#x7E4B;&#x304C;&#x308A;&#x307E;&#x3059;</p>
+<h3 id="&#x5B9F;&#x7528;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x306E;&#x57FA;&#x672C;">&#x5B9F;&#x7528;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x306E;&#x57FA;&#x672C;</h3>
+<ul>
+<li>OS&#x306E;&#x6839;&#x672C;&#x7684;&#x306A;&#x90E8;&#x5206;&#x306E;&#x52C9;&#x5F37;&#x3092;&#x52C9;&#x5F37;&#x3059;&#x308B;&#x3068;&#x30CD;&#x30C3;&#x30C8;&#x30EF;&#x30FC;&#x30AF;&#x3092;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x304B;&#x3089;&#x5229;&#x7528;&#x53EF;&#x80FD;&#x306B;&#x3059;&#x308B;&#x30BD;&#x30D5;&#x30C8;&#x30A6;&#x30A7;&#x30A2;&#x304C;&#x66F8;&#x3051;&#x308B;&#x3088;&#x3046;&#x306B;&#x306A;&#x308B;</li>
+<li>&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;,&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x8A00;&#x8A9E;&#x306A;&#x3069;&#x3067;&#x4F7F;&#x308F;&#x308C;&#x308B;&#x6A5F;&#x80FD;&#x306E;&#x5B9F;&#x88C5;&#x65B9;&#x6CD5;&#x3092;&#x7406;&#x89E3;&#x3067;&#x304D;&#x307E;&#x3059;</li>
+<li>&#x30BB;&#x30AD;&#x30E5;&#x30EA;&#x30C6;&#x30A3;&#x3078;&#x306E;&#x3088;&#x308A;&#x6DF1;&#x3044;&#x7406;&#x89E3;</li>
+</ul>
+<h3 id="&#x52B9;&#x7387;&#x7684;&#x306A;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x3068;&#x305D;&#x3046;&#x3067;&#x306A;&#x3044;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x3092;&#x7406;&#x89E3;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;">&#x52B9;&#x7387;&#x7684;&#x306A;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x3068;&#x305D;&#x3046;&#x3067;&#x306A;&#x3044;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x3092;&#x7406;&#x89E3;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;</h3>
+<ul>
+<li>OS&#x306F;&#x9AD8;&#x901F;&#x306B;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x306E;&#x9593;&#x3092;&#x5207;&#x308A;&#x66FF;&#x3048;&#x3066;&#x5B9F;&#x884C;&#x304A;&#x308A;,&#x305D;&#x306E;&#x4E2D;&#x306E;&#x52D5;&#x304D;&#x3092;&#x7406;&#x89E3;&#x3057;&#x306A;&#x3051;&#x308C;&#x3070;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x306B;&#x5BFE;&#x3059;&#x308B;&#x9078;&#x629E;&#x306E;&#x826F;&#x3057;&#x60AA;&#x3057;&#x304C;&#x308F;&#x304B;&#x308A;&#x307E;&#x305B;&#x3093;</li>
+</ul>
+<h3 id="os&#x306E;&#x7D30;&#x304B;&#x3044;&#x6A5F;&#x80FD;&#x306F;&#x3069;&#x3046;&#x3067;&#x3082;&#x826F;&#x3044;&#x3068;&#x3044;&#x3046;&#x4EBA;">OS&#x306E;&#x7D30;&#x304B;&#x3044;&#x6A5F;&#x80FD;&#x306F;&#x3069;&#x3046;&#x3067;&#x3082;&#x826F;&#x3044;&#x3068;&#x3044;&#x3046;&#x4EBA;</h3>
+<ul>
+<li>OS&#x306E;&#x306E;API&#x3092;&#x7D44;&#x307F;&#x5408;&#x308F;&#x305B;&#x308B;&#x969B;&#x306B;,OS&#x3092;&#x6301;&#x3064;&#x6A5F;&#x80FD;&#x3092;&#x7406;&#x89E3;&#x3057;&#x3066;&#x3044;&#x308C;&#x3070;&#x5FC5;&#x8981;&#x306B;&#x5FDC;&#x3058;&#x3066;&#x30DE;&#x30CB;&#x30E5;&#x30A2;&#x30EB;&#x3092;&#x898B;&#x308B;&#x3068;&#x3044;&#x3046;&#x6B63;&#x3057;&#x3044;&#x624B;&#x6CD5;&#x3092;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;</li>
+<li>&#x30DE;&#x30CB;&#x30E5;&#x30A2;&#x30EB;&#x3092;&#x8AAD;&#x3080;&#x969B;&#x306B;OS&#x306E;&#x80CC;&#x666F;&#x77E5;&#x8B58;&#x304C;&#x5FC5;&#x8981;&#x306B;&#x306A;&#x308B;&#x3053;&#x3068;&#x304C;&#x591A;&#x304F;,&#x30DE;&#x30CB;&#x30E5;&#x30A2;&#x30EB;&#x3092;&#x8AAD;&#x3093;&#x3067;&#x7406;&#x89E3;&#x3059;&#x308B;&#x3053;&#x3068;&#x3082;&#x53EF;&#x80FD;&#x3067;&#x3059;</li>
+</ul>
+<h2 id="os&#x306E;&#x5F79;&#x5272;">OS&#x306E;&#x5F79;&#x5272;</h2>
+<p>OS&#x306B;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306A;&#x5F79;&#x5272;&#x304C;&#x6709;&#x308A;&#x307E;&#x3059;</p>
+<ul>
+<li>&#x8A08;&#x7B97;&#x6A5F;&#x8CC7;&#x6E90;&#x3092;&#x62BD;&#x8C61;&#x5316;&#xFF65;&#x4EEE;&#x60F3;&#x5316;&#x3057;&#x307E;&#x3059;</li>
+<li>&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x9593;&#x306E;&#x9694;&#x96E2;,&#x8A08;&#x7B97;&#x6A5F;&#x8CC7;&#x6E90;&#x306E;&#x7BA1;&#x7406;</li>
+</ul>
+<h3 id="&#x62BD;&#x8C61;&#x5316;&#xFF65;&#x4EEE;&#x60F3;&#x5316;&#x4FBF;&#x5229;&#x306A;&#x5074;&#x9762;">&#x62BD;&#x8C61;&#x5316;&#xFF65;&#x4EEE;&#x60F3;&#x5316;(&#x4FBF;&#x5229;&#x306A;&#x5074;&#x9762;)</h3>
+<ul>
+<li><p>&#x30CF;&#x30FC;&#x30C9;&#x30A6;&#x30A7;&#x30A2;&#x3068;&#x30BD;&#x30D5;&#x30C8;&#x30A6;&#x30A7;&#x30A2;&#x306E;&#x9593;&#x306B;&#x5165;&#x308B;&#x3088;&#x3046;&#x306A;&#x6A5F;&#x80FD;&#x3092;&#x63D0;&#x4F9B;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;(<strong>&#x4EEE;&#x60F3;&#x5316;</strong>)
+&#x30CA;&#x30DE;&#x306E;&#x30CF;&#x30FC;&#x30C9;&#x30A6;&#x30A7;&#x30A2;&#x3067;&#x306F;&#x3084;&#x308A;&#x306B;&#x304F;&#x3044;&#x51FA;&#x5165;&#x529B;&#x306A;&#x3069;&#x3092;&#x6271;&#x3063;&#x305F;&#x308A;,OS&#x3092;&#x7C21;&#x5358;&#x306B;&#x6271;&#x3048;&#x308B;&#x3088;&#x3046;&#x306A;API&#x3092;&#x63D0;&#x4F9B;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;</p>
+</li>
+<li><p>&#x307E;&#x305F;,&#x5B9F;&#x969B;&#x306F;&#x8907;&#x6570;&#x306E;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x3067;&#x8A08;&#x7B97;&#x8CC7;&#x6E90;&#x3092;&#x5171;&#x6709;&#x3057;&#x3066;&#x3044;&#x308B;&#x306E;&#x3067;&#x3059;&#x304C;,&#x305D;&#x308C;&#x3092;&#x610F;&#x8B58;&#x3057;&#x306A;&#x304F;&#x3066;&#x3082;&#x4F7F;&#x3046;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;(<strong>&#x62BD;&#x8C61;&#x5316;</strong>)
+CPU&#x3084;&#x30E1;&#x30E2;&#x30EA;&#x3067;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x306E;&#x8CC7;&#x6E90;&#x306E;&#x5272;&#x5F53;&#x3092;&#x3046;&#x307E;&#x304F;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;</p>
+</li>
+</ul>
+<h3 id="&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x9593;&#x306E;&#x9694;&#x96E2;&#x8A08;&#x7B97;&#x6A5F;&#x8CC7;&#x6E90;&#x306E;&#x7BA1;&#x7406;&#x5B89;&#x5168;&#x306A;&#x5074;&#x9762;">&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x9593;&#x306E;&#x9694;&#x96E2;,&#x8A08;&#x7B97;&#x6A5F;&#x8CC7;&#x6E90;&#x306E;&#x7BA1;&#x7406;(&#x5B89;&#x5168;&#x306A;&#x5074;&#x9762;)</h3>
+<ul>
+<li>&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x9593;&#x306E;&#x9694;&#x96E2;&#x3068;&#x306F;&#x4ED6;&#x306E;&#x4EBA;&#x304C;&#x81EA;&#x5206;&#x306E;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x3092;&#x95B2;&#x89A7;&#x3057;&#x305F;&#x308A;,&#x7834;&#x58CA;&#x3067;&#x304D;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x3059;&#x308B;&#x6A5F;&#x80FD;&#x3067;&#x3059;</li>
+<li>&#x8A08;&#x7B97;&#x8CC7;&#x6E90;&#x306E;&#x7BA1;&#x7406;&#x3068;&#x306F;&#x3042;&#x308B;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x304C;CPU&#x3084;&#x30E1;&#x30E2;&#x30EA;&#x3092;&#x72EC;&#x5360;&#x7684;&#x306B;&#x5229;&#x7528;&#x3067;&#x304D;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;</li>
+</ul>
+<h3 id="&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x30B3;&#x30FC;&#x30EB;">&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x30B3;&#x30FC;&#x30EB;</h3>
+<p><strong>&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x30B3;&#x30FC;&#x30EB;</strong>&#x3092;&#x547C;&#x3073;&#x51FA;&#x3059;&#x3053;&#x3068;&#x3067;,&#x5B9F;&#x884C;&#x304C;&#x9762;&#x5012;&#x306A;&#x4ED5;&#x4E8B;(&#x5165;&#x51FA;&#x529B;,&#x8A08;&#x7B97;&#x8CC7;&#x6E90;&#x306E;&#x5272;&#x5F53;)&#x3092;&#x5B9F;&#x884C;&#x3067;&#x304D;&#x307E;&#x3059;</p>
+<p>&#x307E;&#x305F;,&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x30B3;&#x30FC;&#x30EB;&#x3092;&#x4ECB;&#x3057;&#x3066;&#x3067;&#x306A;&#x3044;&#x3068;&#x8CC7;&#x6E90;&#x3092;&#x5229;&#x7528;&#x3067;&#x304D;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x3059;&#x308B;&#x3053;&#x3068;&#x3067;&#x5B89;&#x5168;&#x6027;&#x3092;&#x4FDD;&#x8A3C;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;</p>
+<h2 id="&#x5B89;&#x5168;&#x6027;&#x3092;&#x3069;&#x3046;&#x5B9F;&#x73FE;&#x3092;&#x3059;&#x308B;&#x306E;&#x304B;">&#x5B89;&#x5168;&#x6027;&#x3092;&#x3069;&#x3046;&#x5B9F;&#x73FE;&#x3092;&#x3059;&#x308B;&#x306E;&#x304B;</h2>
+<p>&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x8AAD;&#x307F;&#x66F8;&#x304D;&#x3059;&#x308B;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x30B3;&#x30FC;&#x30EB;&#x306F;<code>open</code>, <code>read</code>, <code>write</code>&#x3067;&#x3059;(&#x4FBF;&#x5229;&#x306A;&#x5074;&#x9762;)</p>
+<p><strong>&#x3053;&#x308C;&#x3089;&#x3092;&#x901A;&#x3057;&#x3066;&#x3057;&#x304B;</strong>&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306B;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x304C;&#x3067;&#x304D;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x3059;&#x308C;&#x3070;&#x5B89;&#x5168;&#x3067;&#x3059;</p>
+<p>&#x3057;&#x304B;&#x3057;,&#x305D;&#x306E;&#x4FDD;&#x8A3C;&#x306F;&#x81EA;&#x660E;&#x3067;&#x306F;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;</p>
+<p>&#x3068;&#x3044;&#x3046;&#x306E;&#x3082;&#x30C7;&#x30A3;&#x30B9;&#x30AF;&#x306B;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3059;&#x308B;&#x3068;&#x3044;&#x3046;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;,OS&#x306E;&#x52D5;&#x4F5C;&#x306E;&#x771F;&#x4F3C;&#x3092;&#x3059;&#x308C;&#x3070;&#x8AB0;&#x3067;&#x3082;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x304C;&#x3067;&#x304D;&#x305D;&#x3046;&#x3067;&#x3059;</p>
+<h3 id="cpu&#x306E;&#x4ED5;&#x7D44;&#x307F;">CPU&#x306E;&#x4ED5;&#x7D44;&#x307F;</h3>
+<h4 id="&#x547D;&#x4EE4;&#xFF65;&#x30E2;&#x30FC;&#x30C9;">&#x547D;&#x4EE4;&#xFF65;&#x30E2;&#x30FC;&#x30C9;</h4>
+<p>&#x547D;&#x4EE4;&#x306B;&#x306F;2&#x7A2E;&#x985E;&#x3042;&#x308A;&#x307E;&#x3059;</p>
+<ul>
+<li>&#x975E;&#x7279;&#x6A29;&#x547D;&#x4EE4;</li>
+<li>&#x7279;&#x6A29;&#x547D;&#x4EE4;</li>
+</ul>
+<p>CPU&#x306E;&#x52D5;&#x4F5C;&#x72B6;&#x614B;&#x306B;&#x3082;2&#x7A2E;&#x985E;&#x3042;&#x308A;&#x307E;&#x3059;</p>
+<ul>
+<li>&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x30E2;&#x30FC;&#x30C9;(&#x975E;&#x7279;&#x6A29;)</li>
+<li>&#x30B9;&#x30FC;&#x30D1;&#x30D0;&#x30A4;&#x30B6;&#x30E2;&#x30FC;&#x30C9;(&#x7279;&#x6A29;)</li>
+</ul>
+<p>CPU&#x306B;&#x3088;&#x3063;&#x3066;&#x306F;&#x66F4;&#x306B;&#x7D30;&#x5206;&#x5316;&#x3059;&#x308B;&#x5834;&#x5408;&#x304C;&#x6709;&#x308A;&#x307E;&#x3059;</p>
+<p>&#x7279;&#x6A29;&#x547D;&#x4EE4;(&#x5165;&#x51FA;&#x529B;&#x547D;&#x4EE4;,&#x4E00;&#x90E8;&#x306E;&#x30E1;&#x30E2;&#x30EA;&#x9818;&#x57DF;&#x3078;&#x306E;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x306A;&#x3069;)&#x306F;&#x7279;&#x6A29;&#x30E2;&#x30FC;&#x30C9;&#x3067;&#x306E;&#x307F;&#x5B9F;&#x884C;&#x53EF;&#x80FD;&#x3068;&#x3057;&#x307E;&#x3059;</p>
+<p>&#x3053;&#x308C;&#x306B;&#x3088;&#x3063;&#x3066;&#x666E;&#x6BB5;&#x884C;&#x3063;&#x3066;&#x3044;&#x308B;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x306F;&#x975E;&#x7279;&#x6A29;&#x547D;&#x4EE4;&#x306A;&#x306E;&#x3067;,&#x4FDD;&#x8B77;&#x3092;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;</p>
+<h4 id="&#x30C8;&#x30E9;&#x30C3;&#x30D7;&#x547D;&#x4EE4;">&#x30C8;&#x30E9;&#x30C3;&#x30D7;&#x547D;&#x4EE4;</h4>
+<p><strong>&#x30C8;&#x30E9;&#x30C3;&#x30D7;&#x547D;&#x4EE4;</strong>&#x3068;&#x306F;&#xFF62;&#x7279;&#x6A29;&#x30E2;&#x30FC;&#x30C9;&#x3078;&#x79FB;&#x884C;+&#x7279;&#x5B9A;&#x756A;&#x5730;&#x3078;&#x30B8;&#x30E3;&#x30F3;&#x30D7;&#xFF63;&#x3068;&#x3044;&#x3046;&#x547D;&#x4EE4;&#x3067;&#x3059;</p>
+<p>&#xFF62;&#x7279;&#x6A29;&#x30E2;&#x30FC;&#x30C9;&#x3078;&#x79FB;&#x884C;&#xFF63;&#x3068;&#x3044;&#x3046;&#x547D;&#x4EE4;&#x3068;&#xFF62;&#x7279;&#x5B9A;&#x756A;&#x5730;&#x3078;&#x30B8;&#x30E3;&#x30F3;&#x30D7;&#xFF63;&#x3068;&#x3044;&#x3046;&#x547D;&#x4EE4;&#x3092;&#x540C;&#x6642;&#x306B;&#x3059;&#x308B;&#x3053;&#x3068;&#x3067;&#x4ED6;&#x306E;&#x547D;&#x4EE4;&#x3067;&#x306F;&#x5B9F;&#x73FE;&#x3067;&#x304D;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x3067;&#x304D;&#x307E;&#x3059;</p>
+<p>&#x30C8;&#x30E9;&#x30C3;&#x30D7;&#x547D;&#x4EE4;&#x306F;&#x30E6;&#x30FC;&#x30B6;&#x30E2;&#x30FC;&#x30C9;&#x3067;&#x5B9F;&#x73FE;&#x53EF;&#x80FD;&#x3067;&#x3059;</p>
+<p>&#x7279;&#x5B9A;&#x756A;&#x5730;&#x3092;&#x6C7A;&#x3081;&#x308B;&#x306E;&#x306F;<strong>&#x5272;&#x308A;&#x8FBC;&#x307F;&#x30D9;&#x30AF;&#x30BF;</strong>&#x3068;&#x547C;&#x3070;&#x308C;&#x308B;&#x30E1;&#x30E2;&#x30EA;&#x4E0A;&#x306E;&#x8868;&#x3067;&#x3059;</p>
+<p>&#x5272;&#x308A;&#x8FBC;&#x307F;&#x30D9;&#x30AF;&#x30BF;&#x306F;&#x7279;&#x6A29;&#x547D;&#x4EE4;&#x306B;&#x3088;&#x3063;&#x3066;&#x8A2D;&#x5B9A;&#x3055;&#x308C;&#x307E;&#x3059;</p>
+<h3 id="&#x5B89;&#x5168;&#x6027;&#x306E;&#x305F;&#x3081;&#x306E;os&#x306E;&#x4ED5;&#x7D44;&#x307F;">&#x5B89;&#x5168;&#x6027;&#x306E;&#x305F;&#x3081;&#x306E;OS&#x306E;&#x4ED5;&#x7D44;&#x307F;</h3>
+<p>&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x304C;&#x7279;&#x6A29;&#x547D;&#x4EE4;&#x3092;&#x5B9F;&#x884C;&#x3057;&#x3088;&#x3046;&#x3068;&#x601D;&#x3063;&#x305F;&#x6642;&#x306F;,</p>
+<p>&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x30B3;&#x30FC;&#x30EB;(&#x30C8;&#x30E9;&#x30C3;&#x30D7;&#x547D;&#x4EE4;)&#x2192;&#x7279;&#x6A29;&#x547D;&#x4EE4;(&#x975E;&#x7279;&#x6A29;&#x547D;&#x4EE4;&#x3082;&#x4F7F;&#x3046;)</p>
+<p>&#x3053;&#x3053;&#x3067;&#x306F;&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3068;OS&#x3092;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x30B3;&#x30FC;&#x30EB;&#x304C;&#x7D50;&#x3073;,OS&#x3068;CPU&#x3092;&#x7279;&#x6A29;&#x547D;&#x4EE4;&#x304C;&#x7E4B;&#x3044;&#x3067;&#x3044;&#x307E;&#x3059;(&#x975E;&#x7279;&#x6A29;&#x547D;&#x4EE4;&#x3082;)</p>
+<h2 id="&#x307E;&#x3068;&#x3081;">&#x307E;&#x3068;&#x3081;</h2>
+<ul>
+<li>&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x3068;&#x30D7;&#x30ED;&#x30BB;&#x30B9;(CPU&#x306E;&#x62BD;&#x8C61;&#x5316;&#xFF65;&#x7BA1;&#x7406;)</li>
+<li>&#x4EEE;&#x60F3;&#x8A18;&#x61B6;,&#x30A2;&#x30C9;&#x30EC;&#x30B9;&#x7A7A;&#x9593;(&#x30E1;&#x30E2;&#x30EA;&#x306E;&#x62BD;&#x8C61;&#x5316;&#xFF65;&#x7BA1;&#x7406;)</li>
+<li>&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x30B7;&#x30B9;&#x30C6;&#x30E0;</li>
+<li>&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x9593;&#x901A;&#x4FE1;(&#x30BD;&#x30B1;&#x30C3;&#x30C8;)</li>
+<li>&#x8A8D;&#x8A3C;&#x3068;&#x30BB;&#x30AD;&#x30E5;&#x30EA;&#x30C6;&#x30A3;</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="os00.html" class="navigation navigation-prev " aria-label="Previous page: Operating system">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="os02.html" class="navigation navigation-next " aria-label="Next page: 02 Thread & Process">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"01 Introduction to OS","level":"6.3.1","depth":2,"next":{"title":"02 Thread & Process","level":"6.3.2","depth":2,"path":"os/os02.md","ref":"os/os02.md","articles":[]},"previous":{"title":"Operating system","level":"6.3","depth":1,"path":"os/os00.md","ref":"os/os00.md","articles":[{"title":"01 Introduction to OS","level":"6.3.1","depth":2,"path":"os/os01.md","ref":"os/os01.md","articles":[]},{"title":"02 Thread & Process","level":"6.3.2","depth":2,"path":"os/os02.md","ref":"os/os02.md","articles":[]},{"title":"03 C & Assembly","level":"6.3.3","depth":2,"path":"os/os03.md","ref":"os/os03.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["katex-plus","copy-code-button","search-pro-kui","custom-favicon","image-captions","japanese-support","advanced-emoji","hide-published-with","custom-favicon","-lunr","-search","-sharing","uml"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"japanese-support":{},"highlight":{},"uml":{"charset":"utf-8","format":"svg"},"favicon":"img/favicon.ico","katex-plus":{},"custom-favicon":{},"copy-code-button":{},"search-pro-kui":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"info-theo/info-theo03.html#fig6.1.3.1","level":"6.1.3","list_caption":"Figure: 図1","alt":"図1","nro":1,"url":"img/1.dot.svg","index":1,"caption_template":"Figure: _CAPTION_","label":"図1","attributes":{},"skip":false,"key":"6.1.3.1"},{"backlink":"info-theo/info-theo03.html#fig6.1.3.2","level":"6.1.3","list_caption":"Figure: 図2","alt":"図2","nro":2,"url":"img/2.dot.svg","index":2,"caption_template":"Figure: _CAPTION_","label":"図2","attributes":{},"skip":false,"key":"6.1.3.2"},{"backlink":"info-theo/info-theo03.html#fig6.1.3.3","level":"6.1.3","list_caption":"Figure: 図3","alt":"図3","nro":3,"url":"img/3.dot.svg","index":3,"caption_template":"Figure: _CAPTION_","label":"図3","attributes":{},"skip":false,"key":"6.1.3.3"},{"backlink":"os/os02.html#fig6.3.2.1","level":"6.3.2","list_caption":"Figure: 各スレッドの状態","alt":"各スレッドの状態","nro":4,"url":"img/thread.dot.svg","index":1,"caption_template":"Figure: _CAPTION_","label":"各スレッドの状態","attributes":{},"skip":false,"key":"6.3.2.1"}]},"title":"CS-Recap","gitbook":"*"},"file":{"path":"os/os01.md","mtime":"2019-10-12T05:37:12.425Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-13T05:28:37.733Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro-kui/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro-kui/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-published-with/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
