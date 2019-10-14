@@ -10,7 +10,8 @@
 * [Calculus](cal/cal00.md)
 * [Linear algebra](linear-alge/linear-alge00.md)
 * [Statistics](stat/stat00.md)
-* [Set & Topology](set-topology/set-phase00.md)
+* [Set theory](set/set00.md)
+* [Topology](topo/topo00.md)
 
 ## Physics
 * [Electromagnetics](elec/elec00.md)
