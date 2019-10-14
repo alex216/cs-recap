@@ -18,9 +18,9 @@
     * [03 Potential](elec/elec03.md)
 
 ## CS
-* [Discrete math](dis-math/dis-math00.md)
-    * [01 Set](dis-math/dis-math01.md)
-    * [02 Proof](dis-math/dis-math02.md)
+* [Computational theory](comp-theo/comp-theo00.md)
+    * [01 Set](comp-theo/comp-theo01.md)
+    * [02 Proof](comp-theo/comp-theo02.md)
 * [Algorithm](algo/algo00.md)
     * [01 Order](algo/algo01.md)
 * [Computer architecture](comp-arch/comp-arch00.md)
