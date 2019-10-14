@@ -8,7 +8,7 @@
 
 ## 諸々
 
-* [About editing this site](EDIT.md)
+* [About editing](EDIT.md)
 * [About me](ABOUT.md)
 
 本文に従って何かしらの不利益を被った際の責任は取りませんのであしからず
