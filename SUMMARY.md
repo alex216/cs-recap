@@ -2,6 +2,7 @@
 
 * [Computer Science Recapitulaion](README.md)
 * [About editing this site](EDIT.md)
+* [About me](ABOUT.md)
 
 ## Core
 
@@ -19,8 +20,6 @@
 
 ## CS
 * [Computational theory](comp-theo/comp-theo00.md)
-    * [01 Set](comp-theo/comp-theo01.md)
-    * [02 Proof](comp-theo/comp-theo02.md)
 * [Algorithm](algo/algo00.md)
     * [01 Order](algo/algo01.md)
 * [Computer architecture](comp-arch/comp-arch00.md)

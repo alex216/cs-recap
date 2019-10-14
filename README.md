@@ -6,7 +6,10 @@
 
 文中ではOSをUbuntu(18.04以降)かMac OSを(Mojave以降)を想定しています
 
-## 内容に関する注意
+## 諸々
+
+* [About editing this site](EDIT.md)
+* [About me](ABOUT.md)
 
 本文に従って何かしらの不利益を被った際の責任は取りませんのであしからず
 
@@ -27,7 +30,7 @@ CSの基礎となるような内容です
 
 ## CS
 
-* [Discrete math](dis-math/dis-math00.md)
+* [Computational theory](comp-theo/comp-theo00.md)
 * [Algorithm](algo/algo00.md)
 * [Computer architecture](comp-arch/comp-arch00.md)
 * [Signal processing](signal/signal00.md)
@@ -47,7 +50,3 @@ Coreの内容を土台とする発展的な内容です
 * [Editor](other/editor.md)
 * [Latex](other/latex.md)
 * [Git](othergit.md)
-
-## 編集について
-
-* [About editing this site](EDIT.md)
