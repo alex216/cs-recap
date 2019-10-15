@@ -3,3 +3,4 @@ build.sh
 node_modules
 _book
 .vdcode
+update.sh
