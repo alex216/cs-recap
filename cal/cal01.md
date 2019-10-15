@@ -90,7 +90,7 @@ $$
 a_n \to -\infty \;\;\;(n \to \infty)
 $$
 
-$\plusmn \infty$に発散していなくても,どこにも収束しない時,発散するということもあります
+$\pm \infty$に発散していなくても,どこにも収束しない時,発散するということもあります
 
 ### コーシー列
 
@@ -109,7 +109,7 @@ $$
 となることです.論理学の記号を使うと
 
 $$
-\forall{\varepsilon} >0,\;\; \exist{N}; \;\;\; |a_n - \alpha| < \varepsilon, \;\; \forall{n} \geq N
+\forall{\varepsilon} >0,\;\; \exists{N}; \;\;\; |a_n - \alpha| < \varepsilon, \;\; \forall{n} \geq N
 $$
 
 と書けます
