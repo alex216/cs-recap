@@ -12,7 +12,7 @@ $\mathbb{N}=\lbrace 1,2,3,4,\cdots \rbrace$となります
 
 整数は自然数に0や負の数を加えてもので,ドイツ語でganze Zahlと呼ぶので集合は$\mathbb{Z}$と表します
 
-$\mathbb{\cdots,-2,-1,0,1,2,\cdots}$となります
+$\mathbb{Z} = \lbrace \cdots,-2,-1,0,1,2,\cdots \rbrace$となります
 
 ### 有理数
 
