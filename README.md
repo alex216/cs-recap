@@ -22,7 +22,8 @@ CSの基礎となるような内容です
 * [Calculus](cal/cal00.md)
 * [Linear algebra](linear-alge/linear-alge00.md)
 * [Statistics](stat/stat00.md)
-* [Set & Topology](set-topo00/set-topo00.md)
+* [Set theory](set/set00.md)
+* [Topology](topo/topo00.md)
 
 ## Physics
 

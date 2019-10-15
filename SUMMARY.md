@@ -42,6 +42,7 @@
     * [01 Introduction to OS](os/os01.md)
     * [02 Thread & Process](os/os02.md)
     * [03 C & Assembly](os/os03.md)
+    * [04 Parallelism & Synchronization](os/os04.md)
 
 ## Other topics
 * [Editor](other/editor.md)
