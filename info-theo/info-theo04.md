@@ -160,7 +160,8 @@ $$
 整理して
 
 $$
-\tag{hi} \log p_i = - \frac{H}{L}l_i - \lambda L - \log e
+\tag{hi}
+\log p_i = - \frac{H}{L}l_i - \lambda L - \log e
 $$
 
 これを満たす$p_i$を$\hat{p_i}$と書きます
