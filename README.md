@@ -50,5 +50,5 @@ Coreの内容を土台とする発展的な内容です
 関連した内容です
 
 * [Editor](other/editor.md)
-* [Latex](other/latex.md)
 * [Git](othergit.md)
+* [Latex](other/latex.md)

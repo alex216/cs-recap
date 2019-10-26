@@ -51,6 +51,6 @@
 
 ## Other topics
 * [Editor](other/editor.md)
-* [Latex](other/latex.md)
 * [Git](other/git.md)
+* [Latex](other/latex.md)
 
