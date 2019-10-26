@@ -33,7 +33,8 @@
     * [01 Entropy](info-theo/info-theo01.md)
     * [02 Information Resource](info-theo/info-theo02.md)
     * [03 Marcov chain](info-theo/info-theo03.md)
-    * [04 Discrete communication channel](info-theo/info-theo04.md)
+    * [04 Discrete communication channel without noises](info-theo/info-theo04.md)
+    * [05 Discrete ]
 * [C language](clang/clang00.md)
     * [01 Introduction to C](clang/clang01.md)
 

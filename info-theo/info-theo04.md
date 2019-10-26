@@ -1,4 +1,4 @@
-# 04 Discrete communication channel
+# 04 Discrete communication channel without noises
 
 ## 離散通信路
 
