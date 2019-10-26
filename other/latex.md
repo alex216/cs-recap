@@ -29,12 +29,11 @@ WebブラウザではMathJaxや$\href{https://katex.org/}{\KaTeX}$というJavas
 
 ## 痒い所に手が届け
 
-### 文字の下に文
+### 文字をいろんなところに配置
 
-$$
-\underset{p_i}{max}
-$$
-
-```latex
-\( \underset{p_i}{max} \)
-```
+|コマンド|出力|
+|-|-|
+|`\underset{p_i}{max}`|$\underset{p_i}{max}$|
+|`\underbrace{1+1}_{plus}`|$\underbrace{1+1}_{plus}$|
+|`\overset{something}{=}`|$\overset{something}{=}$|
+|`\overbrace{something}^{minus}`|$\overbrace{1-1}^{minus}$|
