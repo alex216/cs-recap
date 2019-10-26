@@ -1,5 +1,4 @@
 digraph {
-    label="通信系のモデル"
     情報源;
     伝達情報;
     node [shape=box];

@@ -1,5 +1,4 @@
 digraph {
-    label="通信路のモデル"
     node [shape=box];
     送信機;
     伝送路;
