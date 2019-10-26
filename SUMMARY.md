@@ -19,6 +19,7 @@
     * [01 Basic Math](elec/elec01.md)
     * [02 Coulomb & Gaussian](elec/elec02.md)
     * [03 Potential](elec/elec03.md)
+* [Semiconductor device](semicon-semicon00.md)
 
 ## CS
 * [Computational theory](comp-theo/comp-theo00.md)
