@@ -18,6 +18,15 @@ WebブラウザではMathJaxや$\href{https://katex.org/}{\KaTeX}$というJavas
 
 また,Mathjaxでは`\`を2つ書く必要が有ります.これはおそらくJavascriptの既存の機能と被らないようにされているからでしょう
 
+### イコールあれこれ
+
+|コマンド|出力|
+|-|-|
+|`\fallingdotseq`|$\fallingdotseq$|
+|`\approx`|$\approx$|
+|`simeq`|$\simeq$|
+|`\equiv`|$\equiv$|
+
 ## 痒い所に手が届け
 
 ### 文字の下に文
