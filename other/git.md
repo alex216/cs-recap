@@ -80,7 +80,7 @@ Gitではいきなり差分を登録しません.次のような順序があり�
 
 また,メッセージを間違えてコミットしたときのために`git commit --amend`というオプションがあります
 
-```git
+```sh
 git add a.txt
 git commit -m "add aaaaa" # メッセージを間違えた
 git commit --amend -m "add a.txt" # 正しく直す
