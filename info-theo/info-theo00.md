@@ -5,3 +5,4 @@
 * [Entropy](info-theo01.md)
 * [Information Resource](info-theo02.md)
 * [Marcov chain](info-theo03.md)
+* [Discrete communication channel](info-theo04.md)
