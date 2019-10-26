@@ -87,6 +87,94 @@ $$
  \sum_{i} 2^{-Cl_{i}} = 1
 $$
 
-の性のコン
+の正の根です.また情報を最大の速度で伝送するには信号$B_i$が確率
+
+$$
+\hat{p_i} = 2^{-Cl_{i}}
+$$
+
+で独立に発生すれば良い
 
 ---
+
+---
+
+`証明`
+
+$$
+\begin{aligned}
+    H&= - \sum p \log p_i \\
+    L&= \sum p_i l_i
+\end{aligned}
+$$
+
+として
+
+$$
+R = \frac{H}{L}
+$$
+
+を
+
+$$
+\sum p_i = 1
+$$
+
+という制約条件で最大にすることが問題です
+
+Lagrangeの未定定数$\lambda$を使って
+
+$$
+S = R = \lambda (\sum p_i)
+$$
+
+を各$p_i$で微分して,それを0とすればほしい値は求まります
+
+上の条件と共に
+
+$$
+\frac{\partial S}{\partial p_i} = \frac{\partial R}{\partial p_i} - \lambda \frac{\partial}{\partial p_i} \left(\sum p_i\right)
+$$
+
+であり,右辺を変形すると
+
+$$
+\begin{aligned}
+\frac{\partial R}{\partial p_i} - \lambda \frac{\partial}{\partial p_i} \left(\sum p_i\right) &= -\frac{\frac{\partial}{\partial p_i}HL - H \frac{\partial}{\partial p_i}L}{L^2} - \lambda \\
+&= - \frac{\frac{\partial}{\partial p_i}\sum p_i \log p_i}{L} - \frac{1}{L^2}(\frac{\partial}{\partial p_i}\sum p_i l_i)H - \lambda \\
+&= - \frac{1}{L} \left(\log p_i - \left( \frac{p_i}{p_i \log e} \right)\right) - \frac{H}{L^2}l_i - \lambda\\
+&= -\frac{H}{L^2}l_i - \frac{1}{L}(\log p_i + \log e) - \lambda
+\end{aligned}
+$$
+
+ただし
+
+- $(\frac{f(x)}{g(x)})' = \frac{f'(x)g(x) - f(x)g'(x)}{g^2(x)}$
+- $(\log_a x)' = \frac{1}{x log a}$
+- $- \frac{1}{\log x} = \log x$
+
+を使っています
+
+---
+
+整理して
+
+$$
+\log p_i = - \frac{H}{L}l_i - \lambda L - \log e \tag{1}
+$$
+
+これを満たす$p_i$を$\hat{p_i}$と書きます
+
+ここで両辺に$- p_i$を書けて,$i$について総和($\sum$)を取ると
+
+$$
+H = H + \left( \lambda L + \log e \right)
+$$
+
+となるから
+
+$$
+\lambda L + \log e = 0
+$$
+
+です.これを
