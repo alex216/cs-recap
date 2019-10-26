@@ -35,13 +35,14 @@ CSの基礎となるような内容です
 * [Algorithm](algo/algo00.md)
 * [Computer architecture](comp-arch/comp-arch00.md)
 * [Signal processing](signal/signal00.md)
+* [Information theory](info-theo/info-theo00.md)
 * [C language](clang/clang00.md)
 
 ## Selective
 
 Coreの内容を土台とする発展的な内容です
 
-* [Information theory](info-theo/info-theo00.md)
+* [Information geometry](info-geo/info-geo00.md)
 * [Operating system](os/os00.md)
 
 ## Other topics
