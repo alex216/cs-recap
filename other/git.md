@@ -103,5 +103,6 @@ git commit --amend -m "add a.txt" # 正しく直す
 
 |コマンド|意味|
 |-|-|
-|`git remote origin git@github.com:abc/c.git`|GitHubの`abc`というユーザーの`c`というディレクトリをリモートレポジトリに指定する|
-|`git push -u`||
+|`git remote add origin git@github.com:abc/c.git`|GitHubの`abc`というユーザーの`c`というディレクトリをリモートレポジトリに指定する|
+|`git push -u origin master`|デフォルトの差分登録場所を決めて,プッシュする|
+|`git push origin master`|プッシュする|
