@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Algorithm · CS-Recap</title>
+        <title>04 Parallelism & Synchronization · CS-Recap</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -69,10 +69,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="algo01.html" />
+    <link rel="next" href="../other/editor.html" />
     
     
-    <link rel="prev" href="../comp-theo/comp-theo00.html" />
+    <link rel="prev" href="os03.html" />
     
 
     </head>
@@ -323,9 +323,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="5.2" data-path="algo00.html">
+        <li class="chapter " data-level="5.2" data-path="../algo/algo00.html">
             
-                <a href="algo00.html">
+                <a href="../algo/algo00.html">
             
                     
                     Algorithm
@@ -337,9 +337,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="5.2.1" data-path="algo01.html">
+        <li class="chapter " data-level="5.2.1" data-path="../algo/algo01.html">
             
-                <a href="algo01.html">
+                <a href="../algo/algo01.html">
             
                     
                     01 Order
@@ -574,9 +574,9 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2" data-path="../os/os00.html">
+        <li class="chapter " data-level="6.2" data-path="os00.html">
             
-                <a href="../os/os00.html">
+                <a href="os00.html">
             
                     
                     Operating system
@@ -588,9 +588,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="6.2.1" data-path="../os/os01.html">
+        <li class="chapter " data-level="6.2.1" data-path="os01.html">
             
-                <a href="../os/os01.html">
+                <a href="os01.html">
             
                     
                     01 Introduction to OS
@@ -601,9 +601,9 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2.2" data-path="../os/os02.html">
+        <li class="chapter " data-level="6.2.2" data-path="os02.html">
             
-                <a href="../os/os02.html">
+                <a href="os02.html">
             
                     
                     02 Thread & Process
@@ -614,9 +614,9 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2.3" data-path="../os/os03.html">
+        <li class="chapter " data-level="6.2.3" data-path="os03.html">
             
-                <a href="../os/os03.html">
+                <a href="os03.html">
             
                     
                     03 C & Assembly
@@ -627,9 +627,9 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2.4" data-path="../os/os04.html">
+        <li class="chapter active" data-level="6.2.4" data-path="os04.html">
             
-                <a href="../os/os04.html">
+                <a href="os04.html">
             
                     
                     04 Parallelism & Synchronization
@@ -721,7 +721,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Algorithm</a>
+        <a href=".." >04 Parallelism & Synchronization</a>
     </h1>
 </div>
 
@@ -736,11 +736,68 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="algorithm">Algorithm</h1>
-<p>OS,&#x6697;&#x53F7;&#x6280;&#x8853;,&#x4EBA;&#x5DE5;&#x77E5;&#x80FD;,&#x30CD;&#x30C3;&#x30C8;&#x30EF;&#x30FC;&#x30AF;,&#x30B3;&#x30F3;&#x30D1;&#x30A4;&#x30E9;&#x30FC;...&#x306A;&#x3069;&#x306A;&#x3069;&#x3042;&#x3089;&#x3086;&#x308B;&#x60C5;&#x5831;&#x79D1;&#x5B66;&#x306E;&#x5206;&#x91CE;&#x3067;&#x5FC5;&#x8981;&#x3068;&#x306A;&#x308B;&#x77E5;&#x8B58;</p>
+                                <h1 id="04-parallelism--synchronization">04 Parallelism &amp; Synchronization</h1>
+<h2 id="&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x3068;&#x30D7;&#x30ED;&#x30BB;&#x30B9;">&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x3068;&#x30D7;&#x30ED;&#x30BB;&#x30B9;</h2>
+<p>&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x306F;CPU&#x306E;&#x6570;&#x3060;&#x3051;&#x540C;&#x6642;&#x306B;&#x5B9F;&#x884C;&#x3055;&#x308C;,CPU&#x3092;&#x8D85;&#x3048;&#x308B;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#xFF65;&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x306F;OS&#x306B;&#x3088;&#x3063;&#x3066;&#x4EA4;&#x4E92;&#x306B;&#x5B9F;&#x884C;&#x3055;&#x308C;&#x307E;&#x3059;</p>
+<h3 id="&#x6027;&#x80FD;&#x306E;&#x4E0A;&#x3052;&#x65B9;&#xFF65;&#x76EE;&#x7684;">&#x6027;&#x80FD;&#x306E;&#x4E0A;&#x3052;&#x65B9;&#xFF65;&#x76EE;&#x7684;</h3>
 <ul>
-<li><a href="algo01.html">Order</a></li>
+<li>&#x4E26;&#x5217;&#x51E6;&#x7406;<ul>
+<li>&#x30DE;&#x30EB;&#x30C1;&#x30B3;&#x30A2;&#x5316;</li>
 </ul>
+</li>
+<li>I/O&#x9045;&#x5EF6;&#x96A0;&#x853D;<ul>
+<li>I/O&#x306B;&#x3088;&#x308A;&#x30D6;&#x30ED;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x3092;&#x8907;&#x6570;&#x5B9F;&#x884C;&#x3057;&#x3066;CPU&#x5229;&#x7528;&#x7387;&#x3092;&#x5411;&#x4E0A;</li>
+</ul>
+</li>
+<li>&#x8A18;&#x8FF0;&#x306E;&#x7C21;&#x6F54;&#x5316;<ul>
+<li>&#x8AD6;&#x7406;&#x7684;&#x306B;&#x307B;&#x307C;&#x72EC;&#x7ACB;&#x306A;&#x30BF;&#x30B9;&#x30AF;&#x3092;&#x7C21;&#x6F54;&#x306B;&#x8A18;&#x8FF0;&#x5316;</li>
+</ul>
+</li>
+</ul>
+<h3 id="&#x5354;&#x8ABF;">&#x5354;&#x8ABF;</h3>
+<p>&#x554F;&#x984C;&#x30C7;&#x30FC;&#x30BF;&#x3084;&#x8A08;&#x7B97;&#x7D50;&#x679C;&#x306E;&#x53D7;&#x3051;&#x6E21;&#x3057;&#x306E;&#x305F;&#x3081;&#x306B;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#xFF65;&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x9593;&#x3067;&#x306F;&#x901A;&#x4FE1;&#x304C;&#x884C;&#x308F;&#x308C;&#x3066;&#x3044;&#x307E;&#x3059;</p>
+<p>&#x901A;&#x4FE1;&#x65B9;&#x6CD5;&#x3068;&#x3057;&#x3066;&#x306F;</p>
+<ul>
+<li>&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x9593;: &#x30D5;&#x30A1;&#x30A4;&#x30EB;,&#x30D1;&#x30A4;&#x30D7;,&#x30BD;&#x30B1;&#x30C3;&#x30C8;...</li>
+<li>&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x9593;: &#x4E0A;&#x8A18; + &#x5171;&#x6709;&#x30E1;&#x30E2;&#x30EA;</li>
+</ul>
+<h2 id="&#x5171;&#x6709;&#x30E1;&#x30E2;&#x30EA;">&#x5171;&#x6709;&#x30E1;&#x30E2;&#x30EA;</h2>
+<p>1&#x3064;&#x306E;&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x306E;&#x4E2D;&#x306E;&#x8907;&#x6570;&#x306E;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x9593;&#x3067;&#x30E1;&#x30E2;&#x30EA;&#x304C;&#x5171;&#x6709;&#x3055;&#x308C;&#x307E;&#x3059;</p>
+<p>&#x3053;&#x308C;&#x306F;CPU&#x304C;&#x63D0;&#x4F9B;&#x3057;&#x3066;&#x3044;&#x308B;&#x6A5F;&#x80FD;&#x3067;,&#x3042;&#x308B;&#x30A2;&#x30C9;&#x30EC;&#x30B9;&#x306B;&#x66F8;&#x304D;&#x8FBC;&#x3093;&#x3060;&#x7D50;&#x679C;&#x306F;&#x3069;&#x306E;CPU&#x304B;&#x3089;&#x3067;&#x3082;&#x8AAD;&#x307F;&#x51FA;&#x305B;&#x307E;&#x3059;(OS&#x3084;&#x8A00;&#x8A9E;&#x51E6;&#x7406;&#x7CFB;&#x306F;&#x95A2;&#x4FC2;&#x306A;&#x3044;)</p>
+<h2 id="&#x7AF6;&#x5408;&#x72B6;&#x614B;">&#x7AF6;&#x5408;&#x72B6;&#x614B;</h2>
+<p>&#x4E26;&#x884C;&#x3057;&#x3066;&#x5B9F;&#x884C;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#xFF65;&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x9593;&#x306E;&#x5371;&#x967A;&#x306A;&#x76F8;&#x4E92;&#x4F5C;&#x7528;&#x3068;&#x3057;&#x3066;</p>
+<ul>
+<li>&#x5171;&#x6709;&#x30E1;&#x30E2;&#x30EA;&#x306E;&#x66F4;&#x65B0;&#x3068;&#x8AAD;&#x307F;&#x51FA;&#x3057;</li>
+<li>&#x5171;&#x6709;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x66F4;&#x65B0;&#x3068;&#x8AAD;&#x307F;&#x66F8;&#x304D;</li>
+</ul>
+<p>&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;.&#x5171;&#x6709;&#x30E1;&#x30E2;&#x30EA;(&#x30B9;&#x30EC;&#x30C3;&#x30C9;)&#x3092;&#x7528;&#x3044;&#x3066;&#x30B9;&#x30EC;&#x30C3;&#x30C9;(&#x30D7;&#x30ED;&#x30BB;&#x30B9;)&#x306E;&#x9593;&#x3067;&#x6B63;&#x3057;&#x304F;&#x901A;&#x4FE1;&#x3059;&#x308B;&#x3053;&#x3068;&#x306F;&#x81EA;&#x660E;&#x3067;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;</p>
+<p>&#x4EE5;&#x964D;&#x3067;&#x306F;&#x5171;&#x6709;&#x30E1;&#x30E2;&#x30EA;&#x3092;&#x4ECB;&#x3057;&#x3066;&#x901A;&#x4FE1;&#x3059;&#x308B;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x9593;&#x306E;&#x5354;&#x8ABF;&#x306B;&#x8A71;&#x3092;&#x7D5E;&#x308A;&#x307E;&#x3059;</p>
+<h3 id="&#x6CE8;&#x610F;&#x70B9;">&#x6CE8;&#x610F;&#x70B9;</h3>
+<p>&#x7AF6;&#x5408;&#x72B6;&#x614B;&#x306B;&#x306A;&#x3089;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x6C17;&#x3092;&#x4ED8;&#x3051;&#x308B;&#x70B9;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x901A;&#x308A;&#x3067;&#x3059;</p>
+<ul>
+<li>&#x9806;&#x5E8F;(&#x4F9D;&#x5B58;&#x95A2;&#x4FC2;)&#x306F;&#x78BA;&#x4FDD;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x304B;?<ul>
+<li>A&#x306E;&#x5F8C;&#x306B;B&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x5834;&#x5408;&#x306B;,&#x305D;&#x306E;&#x9806;&#x756A;&#x306F;&#x5B88;&#x3089;&#x308C;&#x3066;&#x3044;&#x308B;&#x304B;?</li>
+</ul>
+</li>
+<li>&#x4E0D;&#x53EF;&#x5206;&#x6027;,&#x539F;&#x5B50;&#x6027;(atomicity)&#x306F;&#x78BA;&#x4FDD;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x304B;?<ul>
+<li>A&#x3068;B&#x304C;&#x9023;&#x7D9A;&#x3057;&#x3066;&#x5B9F;&#x884C;&#x3055;&#x308C;&#x308B;&#x5834;&#x5408;&#x306B;,A&#x3068;B&#x306F;&#x9014;&#x5207;&#x308C;&#x305A;&#x306B;&#x5B9F;&#x884C;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x306E;&#x304B;?</li>
+</ul>
+</li>
+</ul>
+<p>&#x4EE5;&#x4E0B;&#x3067;&#x306F;&#x7528;&#x8A9E;&#x306E;&#x8AAC;&#x660E;&#x3092;&#x3057;&#x307E;&#x3059;</p>
+<p>&#x7AF6;&#x5408;&#x72B6;&#x614B;(race condition):</p>
+<pre><code>&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x9593;&#x306E;&#x5371;&#x306A;&#x3044;&#x76F8;&#x4E92;&#x4F5C;&#x7528;&#x304C;&#x8D77;&#x304D;&#x308B;&#x72B6;&#x614B;&#x3067;&#x3059;
+
+&#x540C;&#x3058;&#x9818;&#x57DF;&#x3092;&#x8907;&#x6570;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x304C;&#x4E26;&#x884C;&#x306B;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3057;,&#x5C11;&#x306A;&#x304F;&#x3068;&#x3082;&#x3069;&#x3061;&#x3089;&#x304B;&#x306F;&#x66F8;&#x304D;&#x8FBC;&#x307F;&#x3092;&#x3057;&#x3066;&#x3044;&#x308B;
+</code></pre><p>&#x30AF;&#x30EA;&#x30C6;&#x30A3;&#x30AB;&#x30EB;&#x30BB;&#x30AF;&#x30B7;&#x30E7;&#x30F3;(critical section):</p>
+<pre><code>&#x5F37;&#x8C6A;&#x304C;&#x767A;&#x751F;&#x3057;&#x3066;&#x3044;&#x308B;(&#x6642;&#x9593;&#x7684;)&#x533A;&#x9593;
+</code></pre><p>&#x540C;&#x671F;:</p>
+<pre><code>&#x7AF6;&#x5408;&#x72B6;&#x614B;&#x3092;&#x89E3;&#x6D88;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x30BF;&#x30A4;&#x30DF;&#x30F3;&#x30B0;&#x306E;&#x5236;&#x5FA1;
+
+&#x52DD;&#x624B;&#x306A;&#x30B9;&#x30B1;&#x30B8;&#x30E5;&#x30FC;&#x30EA;&#x30F3;&#x30B0;&#x3092;&#x8A31;&#x3055;&#x306A;&#x3044;&#x305F;&#x3081;&#x306E;&#x5236;&#x7D04;&#x3067;&#x3059;
+</code></pre><h2 id="mutex&#x6392;&#x4ED6;&#x5236;&#x5FA1;">Mutex(&#x6392;&#x4ED6;&#x5236;&#x5FA1;)</h2>
+<p><strong>Mutex</strong>&#x3068;&#x306F;<code>lock</code>&#x3067;&#x4ED6;&#x306E;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x3084;&#x30D7;&#x30ED;&#x30BB;&#x30B9;&#x304C;&#x5B9F;&#x884C;&#x3067;&#x304D;&#x306A;&#x304F;&#x306A;&#x308A;,<code>unlock</code>&#x3067;&#x305D;&#x306E;&#x72B6;&#x614B;&#x304C;&#x89E3;&#x9664;&#x3055;&#x308C;&#x308B;&#x3088;&#x3046;&#x306A;<strong>&#x540C;&#x671F;&#x30D7;&#x30EA;&#x30DF;&#x30C6;&#x30A3;&#x30D6;</strong>&#x3067;&#x3059;</p>
+<p>&#x591A;&#x304F;&#x306E;&#x5834;&#x5408;&#x306F;&#x4ED6;&#x306E;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x3068;&#x5171;&#x6709;&#x3057;&#x3066;&#x3044;&#x308B;&#x30C7;&#x30FC;&#x30BF;&#x306E;&#x8AAD;&#x307F;&#x51FA;&#x3057;&#x304B;&#x3089;&#x66F4;&#x65B0;&#x307E;&#x3067;&#x3092;&#x4E0D;&#x53EF;&#x5206;&#x306B;&#x884C;&#x3044;&#x305F;&#x3044;&#x3068;&#x304D;&#x306B;&#x4F7F;&#x308F;&#x308C;&#x307E;&#x3059;</p>
 
                                 
                                 </section>
@@ -768,12 +825,12 @@
 
             
                 
-                <a href="../comp-theo/comp-theo00.html" class="navigation navigation-prev " aria-label="Previous page: Computational theory">
+                <a href="os03.html" class="navigation navigation-prev " aria-label="Previous page: 03 C & Assembly">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="algo01.html" class="navigation navigation-next " aria-label="Next page: 01 Order">
+                <a href="../other/editor.html" class="navigation navigation-next " aria-label="Next page: Editor">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -784,7 +841,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Algorithm","level":"5.2","depth":1,"next":{"title":"01 Order","level":"5.2.1","depth":2,"path":"algo/algo01.md","ref":"algo/algo01.md","articles":[]},"previous":{"title":"Computational theory","level":"5.1","depth":1,"path":"comp-theo/comp-theo00.md","ref":"comp-theo/comp-theo00.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex-plus","copy-code-button","search-pro-kui","custom-favicon","image-captions","japanese-support","advanced-emoji","hide-published-with","custom-favicon","-lunr","-search","-sharing","uml"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"japanese-support":{},"highlight":{},"uml":{"charset":"utf-8","format":"svg"},"favicon":"img/favicon.ico","katex-plus":{},"custom-favicon":{},"copy-code-button":{},"search-pro-kui":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"info-theo/info-theo03.html#fig5.5.3.1","level":"5.5.3","list_caption":"Figure: 図1","alt":"図1","nro":1,"url":"img/1.dot.svg","index":1,"caption_template":"Figure: _CAPTION_","label":"図1","attributes":{},"skip":false,"key":"5.5.3.1"},{"backlink":"info-theo/info-theo03.html#fig5.5.3.2","level":"5.5.3","list_caption":"Figure: 図2","alt":"図2","nro":2,"url":"img/2.dot.svg","index":2,"caption_template":"Figure: _CAPTION_","label":"図2","attributes":{},"skip":false,"key":"5.5.3.2"},{"backlink":"info-theo/info-theo03.html#fig5.5.3.3","level":"5.5.3","list_caption":"Figure: 図3","alt":"図3","nro":3,"url":"img/3.dot.svg","index":3,"caption_template":"Figure: _CAPTION_","label":"図3","attributes":{},"skip":false,"key":"5.5.3.3"},{"backlink":"info-theo/info-theo04.html#fig5.5.4.1","level":"5.5.4","list_caption":"Figure: 通信路のモデル","alt":"通信路のモデル","nro":4,"url":"./img/4.dot.svg","index":1,"caption_template":"Figure: _CAPTION_","label":"通信路のモデル","attributes":{},"skip":false,"key":"5.5.4.1"},{"backlink":"info-theo/info-theo04.html#fig5.5.4.2","level":"5.5.4","list_caption":"Figure: 通信系のモデル","alt":"通信系のモデル","nro":5,"url":"img/5.dot.svg","index":2,"caption_template":"Figure: _CAPTION_","label":"通信系のモデル","attributes":{},"skip":false,"key":"5.5.4.2"},{"backlink":"os/os02.html#fig6.2.2.1","level":"6.2.2","list_caption":"Figure: 各スレッドの状態","alt":"各スレッドの状態","nro":6,"url":"img/thread.dot.svg","index":1,"caption_template":"Figure: _CAPTION_","label":"各スレッドの状態","attributes":{},"skip":false,"key":"6.2.2.1"}]},"title":"CS-Recap","gitbook":"*"},"file":{"path":"algo/algo00.md","mtime":"2019-10-12T04:59:04.267Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-26T09:21:28.942Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"04 Parallelism & Synchronization","level":"6.2.4","depth":2,"next":{"title":"Editor","level":"7.1","depth":1,"path":"other/editor.md","ref":"other/editor.md","articles":[]},"previous":{"title":"03 C & Assembly","level":"6.2.3","depth":2,"path":"os/os03.md","ref":"os/os03.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex-plus","copy-code-button","search-pro-kui","custom-favicon","image-captions","japanese-support","advanced-emoji","hide-published-with","custom-favicon","-lunr","-search","-sharing","uml"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"japanese-support":{},"highlight":{},"uml":{"charset":"utf-8","format":"svg"},"favicon":"img/favicon.ico","katex-plus":{},"custom-favicon":{},"copy-code-button":{},"search-pro-kui":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"info-theo/info-theo03.html#fig5.5.3.1","level":"5.5.3","list_caption":"Figure: 図1","alt":"図1","nro":1,"url":"img/1.dot.svg","index":1,"caption_template":"Figure: _CAPTION_","label":"図1","attributes":{},"skip":false,"key":"5.5.3.1"},{"backlink":"info-theo/info-theo03.html#fig5.5.3.2","level":"5.5.3","list_caption":"Figure: 図2","alt":"図2","nro":2,"url":"img/2.dot.svg","index":2,"caption_template":"Figure: _CAPTION_","label":"図2","attributes":{},"skip":false,"key":"5.5.3.2"},{"backlink":"info-theo/info-theo03.html#fig5.5.3.3","level":"5.5.3","list_caption":"Figure: 図3","alt":"図3","nro":3,"url":"img/3.dot.svg","index":3,"caption_template":"Figure: _CAPTION_","label":"図3","attributes":{},"skip":false,"key":"5.5.3.3"},{"backlink":"info-theo/info-theo04.html#fig5.5.4.1","level":"5.5.4","list_caption":"Figure: 通信路のモデル","alt":"通信路のモデル","nro":4,"url":"./img/4.dot.svg","index":1,"caption_template":"Figure: _CAPTION_","label":"通信路のモデル","attributes":{},"skip":false,"key":"5.5.4.1"},{"backlink":"info-theo/info-theo04.html#fig5.5.4.2","level":"5.5.4","list_caption":"Figure: 通信系のモデル","alt":"通信系のモデル","nro":5,"url":"img/5.dot.svg","index":2,"caption_template":"Figure: _CAPTION_","label":"通信系のモデル","attributes":{},"skip":false,"key":"5.5.4.2"},{"backlink":"os/os02.html#fig6.2.2.1","level":"6.2.2","list_caption":"Figure: 各スレッドの状態","alt":"各スレッドの状態","nro":6,"url":"img/thread.dot.svg","index":1,"caption_template":"Figure: _CAPTION_","label":"各スレッドの状態","attributes":{},"skip":false,"key":"6.2.2.1"}]},"title":"CS-Recap","gitbook":"*"},"file":{"path":"os/os04.md","mtime":"2019-10-15T02:16:55.213Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-26T09:21:28.942Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
