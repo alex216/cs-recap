@@ -160,7 +160,7 @@ $$
 整理して
 
 $$
-\tag{hi}
+\tag*{1}
 \log p_i = - \frac{H}{L}l_i - \lambda L - \log e
 $$
 
