@@ -70,7 +70,7 @@ $$
 を最大化する問題を考えます.$R$が最大のときの$p_i$を$\hat{p_i}$と書くと最大値は
 
 $$
-C = \underset{p_i}{R}(p_1, \cdots , p_m) = R(\hat{p_1}, \cdots , \hat{p_m})
+C = \underset{p_i}{max}R(p_1, \cdots , p_m) = R(\hat{p_1}, \cdots , \hat{p_m})
 $$
 
 を**通信路容量**と呼びます
